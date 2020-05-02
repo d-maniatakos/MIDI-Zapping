@@ -69,5 +69,5 @@ is required to solve this problem
 
 ##### Disclaimer
 
-<sub>This is my first Arduino Project (my first GitHub respository as well) and by no means am I expert in the equipment and terminology used(there may be inaccuracies).
+<sub>This is my first Arduino Project (my first GitHub repository as well) and by no means am I expert in the equipment and terminology used(there may be inaccuracies).
 I cannot guarantee that the connections/resistors used are the best possible.Implement the schematic/code at your own risk!</sub>
