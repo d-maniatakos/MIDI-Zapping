@@ -25,7 +25,7 @@ is to give the performer the capability to switch between MIDI channels easily w
 - Hairless MIDI (or an alternative if it exists) (Optional - For Testing)
 
 ### Schematic
-![schematic](https://github.com/d-maniatakos/MIDI-Zapping/blob/master/Schematic.png?raw=true)
+![schematic](https://github.com/d-maniatakos/MIDI-Zapping/blob/master/Schematic%20.png?raw=true)
 
 ### How To Use
 
