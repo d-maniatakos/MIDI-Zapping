@@ -42,11 +42,11 @@ Device
 
 ### How it works
 
-The device consists of three push buttons(left one for "Previous Midi Channel,middle one for "Next Midi Channel" and right one for "1st Midi Channel),a 7-Segment Display
+The device consists of three push buttons(left one for "Previous Midi Channel",middle one for "Next Midi Channel" and right one for "1st Midi Channel"),a 7-Segment Display
 which shows the current MIDI Channel and a potentiometer which is used as an ordinary Continuous MIDI Controller(can be assigned to control the volume of the current
 sound via the virtual instrument or whatever other parameter).The push buttons work as digital inputs to Arduino,the Potentiometer as analog input and the 
 7-Seg Display as set of digital outputs.There are also some resistors to control voltages.The "Brain" of the controller is, of course, the Arduino UNO R3.
-The code,receives from the serial port(USB) the midi messages(which should be on channel 1 for the program to work)and "translates" them to the exact same messages 
+The code receives the midi messages(which should be on channel 1 for the program to work) from the serial port(USB)  and "translates" them to the exact same messages 
 but on another channel.Then,the "translated" midi message is sent back to the serial port and then can be outputted to a virtual midi port(using software like 
 Hairless MIDI).The tricky part was switching to another channel/sound without the held notes from the previous one cutting or staying forever.To achieve this,
 a 2-Dimensional array which keeps information ( on / off) about every note in every channel was used and,thus, it's possible to cut-off the held notes from a previous 
